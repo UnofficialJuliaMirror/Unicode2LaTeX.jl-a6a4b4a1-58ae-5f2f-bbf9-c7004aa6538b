@@ -33,8 +33,8 @@ function generate(;nowarn=false)
         print(f, """
             # This file is programmatically generated, do not edit it!
             #   Generated from `$texp` from the LaTeX 2e source tree.
-            #   Covered LaTeX Project Public License (LPPL).
-            #   Commit hash: $ver
+            #   Available under the LaTeX Project Public License (LPPL).
+            #   File commit hash: $ver
             """)
         println(f, "const u2latex = Dict(")
         d = Dict{Char,String}()

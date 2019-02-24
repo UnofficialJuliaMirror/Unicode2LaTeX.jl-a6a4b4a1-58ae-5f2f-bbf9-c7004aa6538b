@@ -1,7 +1,7 @@
 # This file is programmatically generated, do not edit it!
 #   Generated from `base/utf8ienc.dtx` from the LaTeX 2e source tree.
-#   Covered LaTeX Project Public License (LPPL).
-#   Commit hash: b9a6f1fc
+#   Available under the LaTeX Project Public License (LPPL).
+#   File commit hash: b9a6f1fc
 const u2latex = Dict(
     ' ' => "\\nobreakspace",
     '¡' => "\\textexclamdown",
