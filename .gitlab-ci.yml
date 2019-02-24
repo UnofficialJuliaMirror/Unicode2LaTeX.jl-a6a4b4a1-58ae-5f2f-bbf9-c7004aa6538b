@@ -39,7 +39,8 @@ coverage:
     make coverage
     julia << EOF
       using Pkg
-      Pkg.add(PackageSpec(name="Coverage", version=v"0.8.1"))
+      Pkg.add("Coverage")
       using Coverage
+      # Verbose by default and exposes the access token, suppress.
       Codecov.submit_local(process_folder(), "."; verbose=false)
     EOF
