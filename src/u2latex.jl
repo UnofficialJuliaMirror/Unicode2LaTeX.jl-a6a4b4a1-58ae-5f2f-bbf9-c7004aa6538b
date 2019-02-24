@@ -1,7 +1,7 @@
 # This file is programmatically generated, do not edit it!
 #   Generated from `base/utf8ienc.dtx` from the LaTeX 2e source tree.
 #   Available under the LaTeX Project Public License (LPPL).
-#   File commit hash: b9a6f1fc
+#   File commit hash: 78f4054b
 const u2latex = Dict(
     ' ' => "\\nobreakspace",
     '¡' => "\\textexclamdown",
@@ -144,7 +144,7 @@ const u2latex = Dict(
     'Ĭ' => "\\u I",
     'ĭ' => "\\u\\i",
     'Į' => "\\k I",
-    'į' => "\\k\\i",
+    'į' => "\\k i",
     'İ' => "\\.I",
     'ı' => "\\i",
     'Ĳ' => "\\IJ",
@@ -524,6 +524,8 @@ const u2latex = Dict(
     '◦' => "\\textopenbullet",
     '◯' => "\\textbigcircle",
     '♪' => "\\textmusicalnote",
+    '⟨' => "\\textlangle",
+    '⟩' => "\\textrangle",
     'Ḡ' => "\\=G",
     'ḡ' => "\\=g",
     '\ufeff' => "\\ifhmode\\nobreak\\fi",
